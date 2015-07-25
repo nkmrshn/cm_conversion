@@ -7,7 +7,7 @@ This is a study result at [AIIT](http://aiit.ac.jp). This gem is aimed to conver
 * inches
 * yards
 * [shaku](https://en.wikipedia.org/wiki/Shaku_(unit))
-* feets
+* feet
 
 ## Installation
 

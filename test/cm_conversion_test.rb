@@ -1,7 +1,16 @@
 require 'test_helper'
 
 class CmConversionTest < Minitest::Test
+  def setup
+    @test_class = ::CmConversion::Converter.new
+  end
+
   def test_that_it_has_a_version_number
     refute_nil ::CmConversion::VERSION
+  end
+
+  def test_to_feet
+    assert_nil @test_class.to_feet("1")
+    assert_equal 0.03280839895013123, @test_class.to_feet(1)
   end
 end
