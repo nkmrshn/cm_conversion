@@ -29,4 +29,10 @@ class CmConversionTest < Minitest::Test
     assert_equal 0.0621371192237334, @test_class.to_mile(1)
     
   end
+  
+  def test_to_yards
+    assert_nil @test_class.to_yards("1")
+    assert_equal 0.010936133, @test_class.to_yards(1)
+  end
+  
 end
