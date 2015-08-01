@@ -13,5 +13,10 @@ module CmConversion
     def to_mile(value)
       value.is_a?(Numeric) ? (value * 100) / 1609.344 : nil
     end
+
+	def to_yards(value)
+      value.is_a?(Numeric) ? value * 0.010936133 : nil
+    end
+
   end
 end
