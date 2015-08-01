@@ -14,7 +14,7 @@ deploy:
   provider: rubygems
   api_key:
     secure: gFWmFBbK2v/qGIKoa1E0bBcGqJu482upFw/YHDR1oommTIROtH8C8R40Moh9alsCmf/teZtfwZrJyqYzGShWnN6uaqJiL5h7JAOSGRdqu6UNZehSlOQmnJPhDBDX4hB0f1j5snXCuemuYw3lF2AsbtBn5nXjWAPP+ptIo3bcBUU6lTuALI0QL492Dk96njy15EaFP0hSkiOOE/q6dYXKp8Aj91lnfTZouzKYmGpgdMIEa+VVq92bMzjawOmhULT9dreNJ1JRnx66/sEovMzWN6mpRIL+2ksslE+9HixdxGONfjcO2zXZpcb1XOW1wMRxUBlUR7N96GzXHUR+j/xeVO4yRsMzwlG7d68VZSUI25MZjBiuDbAcWNHNcoAMsQp2sZDVZBEXKyCD+0EyZZAtlE4rvaBPIoi2x3fbz0tI6PIfhsQvzimUA4SbuoCG05X82Pa6KRh0z4cVX3hl0vt9f3IMA+4g46PWU8lcCNJ0xh/bxDO6XkXnahurEnKTnTPmdjYdZUIjmXz5JsSKSDHi1p3nHZ2dN8eXd8y+/Gv4Maf1MSKTp87BCzy+n1afMo5mG/mnQEohOzZzPC2obVHtTftw2TmqzZZhLkRL74sDA7gySNH2HwXzkEcyNFxJUEzDw1SmIrf6FSjlXDsIvWB3hdcoySLMrrGdpHeXFXQly8M=
-    on:
-      tags: true
-      all_branches: true
-      condition: "$TRAVIS_TAG =~ ^v[0-9].*"
+  on:
+    tags: true
+    all_branches: true
+    condition: "$TRAVIS_TAG =~ ^v[0-9].*"
