@@ -13,4 +13,9 @@ class CmConversionTest < Minitest::Test
     assert_nil @test_class.to_feet("1")
     assert_equal 0.03280839895013123, @test_class.to_feet(1)
   end
+
+  def test_to_shaku
+    assert_nil @test_class.to_shaku("1")
+    assert_equal 0.033000033000033, @test_class.to_shaku(1)
+  end
 end
