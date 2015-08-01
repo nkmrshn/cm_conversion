@@ -11,7 +11,7 @@ module CmConversion
     end
     
     def to_mile(value)
-      value.is_a?(Numeric) ? value / (1609.344 * 100) : nil
+      value.is_a?(Numeric) ? (value * 100) / 1609.344 : nil
     end
   end
 end
