@@ -28,7 +28,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+irb(main):001:0> require 'cm_conversion'
+=> true
+irb(main):002:0> CmConversion::Converter.new.to_feet(1)
+=> 0.03280839895013123
+```
 
 ## License
 
