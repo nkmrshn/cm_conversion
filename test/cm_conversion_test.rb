@@ -21,6 +21,6 @@ class CmConversionTest < Minitest::Test
   
   def test_to_mile
     assert_nil @test_class.to_mile("1")
-    assert_equal 16.09344, @test_class.to_mile(1)
+    assert_equal 0.0621371192237334, @test_class.to_mile(1)
   end
 end
